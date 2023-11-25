@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev --port=3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "h3-formidable": "^1.0.0",
+    "next": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.7.4"
+  }
+}
